@@ -1,17 +1,11 @@
-import React, {Component} from "react";
-import {Grid, GridCol} from 'griz'
+import React from 'react';
 
-export default class Katalog extends Component {
-  render() {
-    return (
-      <div>
+const Katalog = () => {
+  return (
+    <div>
+      Katalog
+    </div>
+  );
+};
 
-
-      <Grid responsiveSm>
-         <GridCol>Title</GridCol>
-  
-      </Grid>
-      </div>
-    );
-  }
-}
+export default Katalog;
