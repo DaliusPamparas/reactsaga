@@ -5,7 +5,7 @@ export default function (){
             name: "Bloblo",
             desc: "Lorem ipsum branswnucdeksu nksdnksj sdjnsdkdjs",
             price: 30,
-            img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4252_BT_large.jpg?v=1536090756"
+            img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4255_BT_large.jpg?v=1536090756"
         },
         {
             id: 2,
@@ -19,7 +19,7 @@ export default function (){
             name: "Ased sdsjja",
             desc: "Lorem ipsum branswnucd ddh dfgfgh dfgfksj sdjnsdkdjs",
             price: 20,
-            img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4252_BT_large.jpg?v=1536090756"
+            img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4255_BT_large.jpg?v=1536090756"
         },
         {
             id: 4,
@@ -32,7 +32,7 @@ export default function (){
             id: 5,
             name: "Kose sjja",
             desc: "Lorem ipsum branswnucd ddh dfgfgh dfgfksj sdjnsdkdjs",
-            price: 70,
+            price: 60,
             img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4252_BT_large.jpg?v=1536090756"
         },
         {
@@ -40,7 +40,7 @@ export default function (){
             name: "Ovej sjja",
             desc: "Lorem ipsum branswnucd ddh dfgfgh dfgfksj sdjnsdkdjs",
             price: 30,
-            img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4252_BT_large.jpg?v=1536090756"
+            img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4258_BT_large.jpg?v=1536090556"
         }
     ]
 }
