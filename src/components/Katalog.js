@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-//import{bindActionCreators} from 'redux'
-import {connect} from 'react-redux'
+
+
 import { Container, Row, Col, Card} from 'react-bootstrap'
+import Katalogview from './Katalogview'
 
  class Katalog extends Component {
 
@@ -41,42 +42,16 @@ import { Container, Row, Col, Card} from 'react-bootstrap'
           </Col>
 
         </Row>
-        <Row>
-          {this.showProductsList()}
-         {/*  <Col  sm="3">
-          <Card >
-            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0628/2445/products/4252_BT_large.jpg?v=1536090756" />
-            <Card.Body>
-              <Card.Text>
-                Some name
-              </Card.Text>
-              <Card.Text>
-                500 kr.
-              </Card.Text>
-          
-            </Card.Body>
-          </Card>
-
-          
-          </Col> */}
-
-         
-
-         
-         
-        </Row>
+        
+         <Katalogview/>
+        
 
       </Container>
       </div>
     )
   }
 }
-function mapStateToProps (state){
-  return {
-    products: state.products
 
-  };  
-}
 
 //function matchDispatchToProps (dispatch){
  //   return bindActionCreators({showMotorInfo: showMotorInfo,
@@ -86,7 +61,7 @@ function mapStateToProps (state){
 //    }, dispatch)
 //}
 
-export default connect(mapStateToProps)(Katalog);
+export default Katalog
 
 
 
