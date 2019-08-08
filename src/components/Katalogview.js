@@ -13,7 +13,7 @@ import { takeproduct } from '../actions/index'
               <Card.Img variant="top" src={product.img} />
               <Card.Body>
                 <Card.Text>
-                  {product.name}
+                  {product.name}  
                 </Card.Text>
                 <Card.Text>
                 {product.price} kr.
@@ -30,6 +30,7 @@ import { takeproduct } from '../actions/index'
     render() {
         return (
             <Row>
+              
                 {this.showProductsList()}
          
             </Row>
