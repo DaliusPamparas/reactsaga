@@ -1,8 +1,8 @@
-export const takeproduct = (product) => {
+export const addToCart = (product) => {
     alert("action -product-" + product.name)
     return {
        //function actioncreater 
-        type: "Take_product",
+        type: "addToCart",
         payload: product 
     }
   }
