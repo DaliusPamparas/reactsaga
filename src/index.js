@@ -6,11 +6,13 @@ import * as serviceWorker from './serviceWorker'
 import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import {createStore} from 'redux'
+import { applyMiddleware, createStore } from 'redux'
+import logger from 'redux-logger'
 import allReducers from './reducers'
 import {Provider} from 'react-redux'
 
-const store = createStore (allReducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore (allReducers, applyMiddleware(logger))
+    
 ReactDOM.render( 
 <BrowserRouter>
 <Provider store={store}>

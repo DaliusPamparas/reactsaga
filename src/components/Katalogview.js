@@ -7,6 +7,7 @@ import { addToCart } from '../actions/index'
 
 
 class Katalogview extends Component {
+  
   render() {
     let productsList = this.props.products.map(product=>{
       return(
