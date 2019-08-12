@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import { Container, Row, Col } from 'react-bootstrap'
+import VarukorgView from './Varukorgview'
 
 export default class Varukorg extends Component {
   render() {
@@ -10,12 +11,16 @@ export default class Varukorg extends Component {
 
           <Col>
           <h1>
-            Varukorg
+           Varukorg
           </h1> 
           </Col>
 
         </Row>
-
+        <Row>
+          <Col>
+          <VarukorgView/>
+          </Col>
+        </Row>
       </Container>
       </div>
     );

@@ -44,9 +44,7 @@ const initState = {
             price: 30,
             img: "https://cdn.shopify.com/s/files/1/0628/2445/products/4258_BT_large.jpg?v=1536090556"
         }
-    ],
-    addedItems: [],
-    total: 0
+    ]
 }
 const initReducer= (state = initState,action)=>{
     
