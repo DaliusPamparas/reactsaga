@@ -3,8 +3,11 @@ import{bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import { Row, Col, Card} from 'react-bootstrap'
 import { addToCart } from '../actions/index'
+import styled from 'styled-components'
 
-
+const EfterCard = styled.div`
+padding-bottom: 25px;
+`
 
 class Katalogview extends Component {
   
@@ -12,6 +15,7 @@ class Katalogview extends Component {
     let productsList = this.props.products.map(product=>{
       return(
         <Col  sm="3" key={product.id} >
+        <EfterCard>
         <Card onClick={() => this.props.addToCart (product)}>
           <Card.Img variant="top" src={product.img} />
           <Card.Body>
@@ -24,7 +28,7 @@ class Katalogview extends Component {
         
           </Card.Body>
         </Card>
-
+        </EfterCard>
         
         </Col>
       )

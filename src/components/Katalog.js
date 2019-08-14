@@ -1,8 +1,18 @@
 import React, { Component } from 'react'
-
-
 import { Container, Row, Col} from 'react-bootstrap'
 import Katalogview from './Katalogview'
+
+import styled from 'styled-components'
+
+const SlyledH1 = styled.h1`
+padding: 40px 0px 10px 0px;
+margin-bottom: .1rem;
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+font-family: 'Cairo', serif;
+font-size: 48px;
+color: grey;
+
+`
 
  class Katalog extends Component {
 
@@ -15,9 +25,9 @@ import Katalogview from './Katalogview'
         <Row >
 
           <Col>
-          <h1>
+          <SlyledH1>
             Katalog
-          </h1> 
+          </SlyledH1> 
           </Col>
 
         </Row>
