@@ -62,7 +62,7 @@ class Varukorgview extends Component {
                 <tr>
                  
                   <th>Namn</th>
-                  <th>Antal</th>
+                  <th> - </th>
                   <th>Pris/stk</th>
                 
                 </tr>
